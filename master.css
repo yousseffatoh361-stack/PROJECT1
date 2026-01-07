@@ -1,0 +1,90 @@
+
+
+body{
+    background: linear-gradient(to bottom, #1b057f, #2980b9) ;
+    min-height: 100vh;
+
+    margin: 0;
+}
+.main-container {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: left;
+}
+.portal-card{
+    display: block;
+    align-items: center;
+    background-color:rgb(13, 13, 112);
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: cornflowerblue;
+    width: 100%;
+    max-width: 850px;
+}
+
+.icon-wrapper img{
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+}
+
+.products-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 100px;
+}
+
+
+.product-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.product-item img {
+    width: 100%;      
+    height: 150px;     
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.product-item h4 {
+    margin: 10px 0;
+    color: #1a2a6c;
+}
+
+.product-item button {
+    background-color: #1a2a6c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.buy-btn {
+    display: inline-block;
+    background-color: #2c3e50; /* اللون الأزرق الغامق اللي في صورتك */
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none; /* عشان يشيل الخط اللي تحت كلمة BUY */
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #34495e; /* لون يتغير شوية لما تلمسه بالماوس */
+}
