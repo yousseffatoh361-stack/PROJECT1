@@ -87,4 +87,13 @@ body{
 
 .buy-btn:hover {
     background-color: #34495e; /* لون يتغير شوية لما تلمسه بالماوس */
+
+}
+.main-container{
+    transition: transform 0.3 ease-in-out;
+    cursor: pointer;
+}
+.main-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
 }
